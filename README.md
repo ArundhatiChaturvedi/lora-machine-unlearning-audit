@@ -115,12 +115,17 @@ This notebook contains the complete implementation used to reproduce the experim
 
 Experiments were performed across multiple GPU platforms during development.
 
+
 Development and pilot experiments were carried out on:
 
-- Kaggle (NVIDIA P100)
-- Kaggle (Dual NVIDIA T4)
 - JarvisLabs
 - Vast.ai
+
+Early development and smoke‑tests were attempted on:
+- Kaggle (NVIDIA P100)
+- Kaggle (Dual NVIDIA T4)
+
+However, both configurations either ran out of memory or were too slow to complete the full pipeline.  The complete set of experiments was therefore executed on a single **NVIDIA H100 80 GB GPU** hosted through Vast.ai.
 
 The complete experimental pipeline was ultimately executed on a single **NVIDIA H100 80GB GPU** hosted through Vast.ai.
 
